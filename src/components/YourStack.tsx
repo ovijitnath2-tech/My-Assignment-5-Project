@@ -17,7 +17,7 @@ const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
         </p>
       </div>
 
-      {/* List of items or Empty state */}
+      
       {stack.length === 0 ? (
         <div className="py-8 text-center text-sm text-gray-400 border border-dashed border-gray-200 rounded-xl mb-4">
           No technologies added yet.
@@ -37,7 +37,7 @@ const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
                 </div>
               </div>
 
-              {/* Single item remove button */}
+              
               <button 
                 onClick={() => onRemove(item.id)}
                 className="text-gray-400 hover:text-red-500 font-bold text-sm px-2 py-1 transition-colors"
@@ -49,7 +49,7 @@ const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
         </div>
       )}
 
-      {/* Remove All Button */}
+      
       {stack.length > 0 && (
         <button 
           onClick={onRemoveAll}

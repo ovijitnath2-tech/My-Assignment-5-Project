@@ -9,7 +9,7 @@ import YourStack from './components/YourStack';
 import Footer from './components/Footer';
 import type { Itech } from './type/type';
 
-// Fallback spinner component
+
 const LoadingFallback = () => (
   <div className="flex flex-col items-center justify-center py-20 gap-4">
     <div className="w-12 h-12 border-4 border-pink-200 border-t-pink-500 rounded-full animate-spin"></div>
@@ -53,7 +53,7 @@ function App() {
 
         <main className="max-w-7xl mx-auto px-6 mt-8 grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-3">
-            {/* ⏳ Suspense boundary right in App.tsx */}
+            
             <Suspense fallback={<LoadingFallback />}>
               <TechContainer 
                 selectedStack={selectedStack} 

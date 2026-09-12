@@ -5,7 +5,7 @@ interface TechCardProps{
     isSelected:Boolean,
     onToggleStack:(Tech:Itech)=>void;
 }
-// Typed directly in the parameters!
+
 const TechCard = ({ tech,isSelected=false, onToggleStack }: TechCardProps) => {
   return (
     <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-full">
