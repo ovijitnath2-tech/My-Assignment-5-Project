@@ -37,7 +37,7 @@ const TechCard = ({ tech,isSelected=false, onToggleStack }: TechCardProps) => {
           </span>
           <span className="font-medium text-gray-500">{tech.difficulty}</span>
           <div className="flex items-center gap-1 font-semibold text-gray-800">
-            <span className="text-amber-400">★</span>
+            {/* <span className="text-amber-400">★</span> */}
             <span>{tech.rating}</span>
           </div>
         </div>
