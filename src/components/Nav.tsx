@@ -22,7 +22,7 @@ const Nav = () => {
                 </nav>
                 {/* action button */}
                 <div className='flex items-center gap-4'>
-                    {/* <button className='text-sm font-semibold text-gray-700 cursor-pointer'>Sign In</button> */}
+                    <button className='text-sm font-semibold text-gray-700 cursor-pointer'>Sign In</button>
                 <button className='bg-pink-500 text-white font-semibold text-sm px-5 py-2.5 rounded-full shadow-md cursor-pointer'>Sign Up</button>
                 </div>
             </div>
