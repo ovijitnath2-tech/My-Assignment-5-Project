@@ -13,13 +13,13 @@ const Nav = () => {
     
                 </div>
                 {/* navigation link */}
-                <nav className='flex items-center gap-8 font-medium text-sm text-gray-600'>
+                {/* <nav className='flex items-center gap-8 font-medium text-sm text-gray-600'>
                     <a href="" className='text-pink-600'>Home</a>
                     <a href="">Techonologies</a>
                     <a href="">Projects</a>
                     <a href="">About</a>
                     <a href="">Contact</a>
-                </nav>
+                </nav> */}
                 {/* action button */}
                 <div className='flex items-center gap-4'>
                     <button className='text-sm font-semibold text-gray-700 cursor-pointer'>Sign In</button>
