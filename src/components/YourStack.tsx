@@ -32,7 +32,7 @@ const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
               <div className="flex items-center gap-3">
                 <img src={item.icon} alt={item.name} className="w-6 h-6 object-contain" />
                 <div>
-                  {/* <h4 className="text-sm font-bold text-gray-800 leading-none">{item.name}</h4> */}
+                  <h4 className="text-sm font-bold text-gray-800 leading-none">{item.name}</h4>
                   <span className="text-[10px] text-gray-400 font-medium">{item.category}</span>
                 </div>
               </div>
